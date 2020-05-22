@@ -4,6 +4,9 @@
 
 
 * {
+    height:auto;
+    width:auto;
+    position:top;
   box-sizing: border-box; 
   font-size: 1em;
 }
@@ -22,8 +25,11 @@ h1,h2,h3,h4,h5,h6,label,span {
 }
 
 body, html, .App, #root, .auth-wrapper, .auth-inner, .form-control {
-  width: 50vmax;
-  height: 100vmax;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 
